@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>leakeller</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {background: linear-gradient(rgb(255, 200, 123), rgb(55, 3, 120)); font-family: monospace; padding: 0.5rem; text-align: center;}
+        img {max-width: 5%; height: auto;}
+        .nav__link {color: black; text-decoration: underline dotted;}
+        .nav__link:hover {color: rgb(55, 3, 120);}
+        .button {font-size:12px; background-color: black; color: whitesmoke; text-align: center; cursor: pointer; border-radius: 4px;}
+
+        /* Last division */
+        .div__menu {border-bottom: none; background-color: none; text-align: justify; border-top: none;}
+        .button__menu {background-color: whitesmoke; color: black; border: 2px solid black;}
+        .button__menu:hover {background-color: rgb(55, 3, 120); color: whitesmoke;}
+    
+        /* First division */
+        .presentation__link {color: black; text-decoration: underline dotted;}
+        .presentation__link:hover {color: rgb(255, 200, 123);}
+        .div__presentation {border-bottom: 2px solid black; background-color: whitesmoke; text-align: justify; margin: 0rem; padding: 0.5rem;}
+        .div__img {size: 10%; border-bottom: none; background-color: whitesmoke; text-align: justify; margin: 0rem; padding: 0.5rem;}
+        .button__presentation {background-color: whitesmoke; color: black; border: 2px solid black;}
+        .button__presentation:hover {background-color: gray; color: whitesmoke;}
+
+        /* Second division */
+        .div__research {border-bottom: 2px solid black; background-color: whitesmoke; text-align: justify; margin: 0rem; padding: 0.5rem;}
+        .research__link {color: black; text-decoration: underline dotted;}
+        .research__link:hover {color: rgb(255, 200, 123);}
+        .thesis__link {color: black; text-decoration: underline dotted;}
+        .thesis__link:hover {color: rgb(255, 154, 123);}
+
+        /* Third division */
+        .experiences__link {color: black; text-decoration: underline dotted;}
+        .experiences__link:hover {color: rgb(55, 3, 120);}
+        .div__experiences {border-bottom: none; background-color: whitesmoke; text-align: justify; margin: 0rem; padding: 0.5rem;}
+
+        /* Languages division */
+        .div__languages {border-bottom: none; background-color: whitesmoke; text-align: justify;}
+    </style>
+</head>
+<body>
+    <h1>Léa Keller</h1><br>
+    <div class="div__presentation">
+        <p>
+            After my bachelor in mathematics and chinese at <a href="https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licence-carte/sciences-chinois" class="presentation__link">Sorbonne Université</a> in Paris, I graduated from the master applied and computational mathematics specialized in optimization and systems theory at <a href="https://www.kth.se/en/studies/master/applied-and-computational-mathematics/" class="presentation__link">Kungliga Tekniska Högskolan</a> in Stockholm.<br>
+        </p>
+    </div>
+    <div id="research" class="div__research">
+        <h2>Research participation, thesis and workshops</h2>
+        <h3>Processes of freezing and thawing of porous media</h3>
+        <p>
+            Contribution to the study of the particular case of free boundary problem involving experimentation and modeling with water and sand. <br>
+        </p>
+        <br>
+        <h3>Control-theoretic methods and agebraic geometric approaches to biochemical reaction networks</h3>
+        <p>
+            Understand bio-chemical reaction networks through the comparative study of different oscillatory dynamical systems.
+        </p>
+        <p>
+            This project deals with the Goodwin model of circadian rythm and three reduced models of the Belousov-Zhabotinski chemical reactions. They are examined and compared by applying dynamical systems theory and control theoretical tools. More precisely, stability analysis of equilibria and Hopf bifurcations. Moreover, we investigate the issues such as positivity and boundeness of the trajectories. The work is carried out by mathematical analysis and by numerical simulations performed in Matlab. In particular, we provide a complete parameter description on stability of the Goodwin model in terms of the Hill number, which seems non-addressed in the literature.
+        </p><br>
+        <h3>Automated Document Analysis and Classification for Enhanced Enterprise Efficiency</h3>
+        <p> 
+            Augmenting a neural transformer with symbolic rules to further close the gap between human and machine performance over receipt labelling task.
+        </p>
+        <br>
+        <a href="publications.html" class="nav__link"><button class="button button__presentation">More</button></a>
+    </div>
+    <div id="experiences" class="div__experiences">
+        <h2>Experiences and interests</h2>
+        <p>My studies and research areas of interest involve topics going from broad mathematical topics of abstract and linear algebra, statistics, probabilities, topologie to mathematical applications and computer science applications in physics, biology and information technology.</p>
+        <br>
+        <p>I started with various scientific concepts of mechanic, gravity, thermodynamics, logic, calculus. They were followed with mathematic theory of numerical sequences and integrals, groups of isometries, affine spaces, multiple integrals, measure theory, topology. My bachelor studies included a mandatory year in a sinophone country in which I had the opportunity to learn and dicuss mathematics in Chinese and English language at <a href="https://www.tsxt.sdu.edu.cn/" class="experiences__link">山东大学</a>. There, I focused on topics of pure algebra, probabilities, differential equations for waves and heat equations. Back at <a href="https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licence-carte/sciences-chinois" class="experiences__link">Sorbonne Université</a>, I pursue with my track courses that I complemented with basic Python programming concepts of data structure, graph theory, differential equations. My speciality is now in mathematical optimisation and systems theory, with a master degree of applied and computational mathematics from <a href="https://www.kth.se/en/studies/master/applied-and-computational-mathematics/" class="experiences__link">Kungliga Tekniska Högskolan</a>. I also have a research experience of about a month at <a href="https://geraldine.fjfi.cvut.cz/" class="experiences__link">CTU</a> and a research support assistant work of six months at the ICT faculty of the <a href="https://www.um.edu.mt/ict/" class="experiences__link">University of Malta</a>.</p>
+        <br>
+        <a href="research_interests.html" class="nav__link"><button class="button button__presentation">More</button></a>  
+    </div>
+    <div class="div__languages">
+        <h2>Spoken languages</h2>
+        <p>
+            English &bull; French &bull; Mandarin &bull; German
+        </p>  
+    </div>
+    <div class="div__menu">
+        <a href="https://github.com/LeaKeller" class="nav__link"><button class="button button__menu">Github</button></a>
+        <a href="https://se.linkedin.com/in/lea-keller-9b45751b1" class="nav__link"><button class="button button__menu">LinkedIn</button></a>
+        <a href="mailto:" class="nav__link"><button class="button button__menu">&#x2709;</button></a>
+    </div>
+    <br>
+    &copy; Léa Keller, 2025 &bull; <a href="https://github.com/LeaKeller/LeaKeller.github.io" class="nav__link">Template</a>
+</body>
+</html>
